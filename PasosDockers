@@ -1,0 +1,5 @@
+#Como la versión actual es para win 10 tuve que usar dockers toolbox para win 7 https://download.docker.com/win/stable/DockerToolbox.exe que estuvo mejor pues no pidio registro
+#Se instala la versión 18.03.0-ce en C:\Program Files\Docker Toolbox no se instala virtual box por ya existir
+#Se configura con la ip 192.168.99.100 Valentin_Valdes@ValentinValdes MING64
+#jalo el archivo (no funciona en la red corporativa por el firewall)
+$ docker pull datascienceworkshops/data-science-at-the-command-line
