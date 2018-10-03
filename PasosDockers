@@ -3,3 +3,29 @@
 #Se configura con la ip 192.168.99.100 Valentin_Valdes@ValentinValdes MING64
 #jalo el archivo (no funciona en la red corporativa por el firewall)
 $ docker pull datascienceworkshops/data-science-at-the-command-line
+#ejecuto el contenedor
+$ docker run --rm -it datascienceworkshops/data-science-at-the-command-line
+
+[/data]$ cowsay "let's go"
+exit
+
+bajar el archivo tic.tar.gz con los datos del repositorio de aprendizaje de máquina de 
+UIC (https://archive.ics.uci.edu/ml/machine-learning-databases/tic-mld/).
+
+descompactar
+
+Conteo de lineas y de columnas para el archivo de entrenamiento
+Conteo de líneas y de columnas para el archivo de prueba.
+Agregar los encabezados a las columnas a los archivos de datos.
+
+para las variables categóricas sustituya los identificadores enteros por los valores del catálogo en todos los archivos de datos.
+por ejemplo para el campo #1 MOSTYPE es el subtipo de cliente y el catálogo se encuentra hacia el final del archivo TicDataDescr.txt
+Si el archivo de datos tiene un valor 1 en ese campo, debe sustituirse por High Income, expensive child
+
+obtenga un resumen de cada una de las columnas de variables continuas  obtener mínimo, máximo, promedio y desviación estándar
+obtenga un resumen de cada una de las columnas de variables categóricas
+
+En el archivo TicDataDescr.txt hay un párrafo en el que indican cual es la variable respuesta. 
+haz un guión que obtenga cual es esta variable y crea un nuevo archivo con esta columna.
+
+2) ¿Se puede determinar el tipo de codificación de los archivos? Si, no y por qué.
