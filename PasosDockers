@@ -11,8 +11,9 @@ exit
 
 bajar el archivo tic.tar.gz con los datos del repositorio de aprendizaje de máquina de 
 UIC (https://archive.ics.uci.edu/ml/machine-learning-databases/tic-mld/).
-
 descompactar
+
+$ curl http://wordpress.org/latest.tar.gz | tar xvz
 
 Conteo de lineas y de columnas para el archivo de entrenamiento
 Conteo de líneas y de columnas para el archivo de prueba.
