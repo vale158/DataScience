@@ -6,18 +6,26 @@ $ docker pull datascienceworkshops/data-science-at-the-command-line
 #ejecuto el contenedor
 $ docker run --rm -it datascienceworkshops/data-science-at-the-command-line
 
-[/data]$ cowsay "let's go"
-exit
-
 bajar el archivo tic.tar.gz con los datos del repositorio de aprendizaje de máquina de 
 UIC (https://archive.ics.uci.edu/ml/machine-learning-databases/tic-mld/).
 descompactar
 
-$ curl http://wordpress.org/latest.tar.gz | tar xvz
+[/data]$ curl https://archive.ics.uci.edu/ml/machine-learning-databases/tic-mld/latest.tar.gz | tar xvz
 
-Conteo de lineas y de columnas para el archivo de entrenamiento
-Conteo de líneas y de columnas para el archivo de prueba.
+#Conteo de lineas y de columnas para el archivo de entrenamiento
+#considerado ticdata2000.txt el Training data
+[/data]$ wc -l ticdata2000.txt
+#salida
+#5822 ticdata2000.txt
+
+#Conteo de líneas y de columnas para el archivo de prueba.
+#considerando ticeval2000.txt el Testing data
+[/data]$ wc -l ticeval2000.txt
+##salida
+#4000 ticeval2000.txt
+
 Agregar los encabezados a las columnas a los archivos de datos.
+
 
 para las variables categóricas sustituya los identificadores enteros por los valores del catálogo en todos los archivos de datos.
 por ejemplo para el campo #1 MOSTYPE es el subtipo de cliente y el catálogo se encuentra hacia el final del archivo TicDataDescr.txt
